@@ -2,4 +2,4 @@
 Plugin carrossel para jQuery/Zepto
 
 
-- Criado em: 2013
+- Desenvolvido em: 2013
