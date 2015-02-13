@@ -4,7 +4,7 @@
 //////////////////////////////////////////////////////////////////////
 //				@charset "UTF-8"									//
 //				@language ECMASCRIPT5							    //
-//				@ Title: Plugin Carrossel com Zepto				//
+//				@ Title: Plugin Carrossel com Zepto				    //
 //				@ Author: Leonardo Silva							//
 //				@ Version: 1.0										//
 //				@ Todos os direitos reservados						//
