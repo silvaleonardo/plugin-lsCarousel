@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Plugin Carrossel</title>
+
+<link href="css/lsCarousel.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<h1>Carrossel com LIST</h1>
+
+<div id="wrap-carrossel">
+	<ul>
+        <li class="item" >
+            <h1>Item 1</h1>
+            <div class="teste"></div>
+        </li>
+        <li class="item" >
+            <h1>Item 2</h1>
+            <div class="teste"></div>
+        </li>
+        <li class="item" >
+            <h1>Item 3</h1>
+            <div class="teste"></div>
+        </li>
+        <li class="item" >
+            <h1>Item 4</h1>
+            <div class="teste"></div>
+        </li>
+        <li class="item" >
+            <h1>Item 5</h1>
+            <div class="teste"></div>
+        </li>
+        <li class="item" >
+            <h1>Item 6</h1>
+            <div class="teste"></div>
+        </li>
+    </ul>
+    <div class="button btn-next"> >> </div>
+    <div class="button btn-prev"> << </div>
+</div>
+
+<script src="js/zepto.min.js"></script>
+<script src="js/zepto.plugins.js"></script>
+<script src="js/lsCarouselZepto.js"></script>
+
+<!-- <script src="js/jquery.min.js"></script>
+<script src="js/lsCarouseljQuery.js"></script> -->
+
+<script type="application/javascript">
+    
+    $(document).ready(function() {
+        $("#wrap-carrossel").lsCarousel({sizeFactor:.9});
+    });
+
+</script>
+
+</body>
+</html>

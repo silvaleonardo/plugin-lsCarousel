@@ -1,0 +1,92 @@
+/*////////////////////////////////////////////////////////////////////
+//				@charset "UTF-8"									//
+//				@language ECMASCRIPT5							    //
+//				@ Title: Plugin Carrossel com jQuery/Zepto				//
+//				@ Author: Leonardo Silva							//
+//				@ Version: 1.0										//
+//				@ Todos os direitos reservados						//
+////////////////////////////////////////////////////////////////////*/
+
+@charset "utf-8";
+/* CSS Plugin Carrossel */
+/* Div principal do carrossel */
+
+.wrap-carrossel {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+#wrap-carrossel {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+/* Classe que indica as divs que fazem parte do carrossel */
+
+.item {
+    background: #CCC;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    list-style: none;
+}
+/* Div escondidas */
+
+.disabled {
+    opacity: 0;
+}
+/* Div ativa no carrossel */
+
+.active {
+    margin-left: -250px;
+    z-index: 4;
+    opacity: 1;
+}
+/* Div no lado direito da que está ativa */
+
+.next {
+    margin-left: 300px;
+    z-index: 2;
+    opacity: .5;
+}
+/* Div no lado esquerdo da que está ativa */
+
+.previous {
+    margin-left: -600px;
+    z-index: 2;
+    opacity: .5;
+}
+/* Classe que indica os botões do carrossel */
+
+.button {
+    background: #CCC;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+}
+/* ID para botão proximo (Lado direito) */
+
+.btn-next {
+    right: 0;
+    top: 50%;
+}
+/* ID para botão anterior (Lado esquerdo) */
+
+.btn-prev {
+    left: 0;
+    top: 50%;
+}
+.teste {
+    background: #0000FF;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
